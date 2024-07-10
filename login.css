@@ -1,0 +1,49 @@
+body{
+    background-image: url(bg.jpg);
+    background-position:contain;
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+}
+.login-box{
+    padding: 50px;
+    background-color:#ffffff73;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 25px;
+    box-shadow: 1px 1px 10px 5px rgb(0, 0, 0);
+    font-size: 25px;
+    
+}
+.form-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* row-gap: 10px; */
+}
+
+p{  
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+#login-btn{
+    margin: 20px;
+    font-weight: 700;
+    width: auto;
+}
+.btn{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.New-user{
+    text-align: center; 
+    color:black; 
+    font-size:20px;
+}
