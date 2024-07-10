@@ -7,8 +7,8 @@
     <style>
         body{
     background-image: url(bg.jpg);
-    background-position:contain;
-    background-size: contain;
+    /* background-position:top; */
+    background-size:cover;
     height: 100vh;
     display: flex;
     justify-content: center;
